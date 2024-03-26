@@ -1,0 +1,31 @@
+
+.btn {
+    border-radius: 20px;
+    border: none;
+    background-color: #b7414180;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    font-family: "OPTIEngeEtienne";
+}
+
+.btn:hover {
+    background-color: #B74141;
+    cursor: pointer;
+}
+
+.sm {
+    width: 100px;
+    padding-block: 5px;
+}
+
+.md {
+    width: 200px;
+    padding-block: 10px;
+    font-size: 1rem;
+}
+
+.lg {
+    width: 300px;
+    padding-block: 15px;
+    font-size: 1.5rem;
+}

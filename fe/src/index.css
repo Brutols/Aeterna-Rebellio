@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'OPTIEngeEtienne';
+  src: local('OPTIEngeEtienne'), url(./font/OPTIEngeEtienne.otf) format('otf');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  background: url(./assets/bg1.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.primary_color {
+  color: #B74141;
+}
+
+.secondary_color {
+  color: #CDCDCD;
+}
+
+.bg_dark {
+  color: #101010;
+}
+
+.txt {
+  color: #fff;
 }
