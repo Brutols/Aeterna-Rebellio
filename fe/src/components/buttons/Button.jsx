@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './button.module.css'
 
-const Button = ({text, variant, href}) => {
+const Button = ({text, variant, href, type}) => {
 
     const variants = {
         sm: "sm",
@@ -10,7 +10,7 @@ const Button = ({text, variant, href}) => {
     }
 
   return (
-    <button type='button' className={`${styles[variants[variant]]} ${styles.btn}`} >
+    <button type={type} className={`${styles[variants[variant]]} ${styles.btn}`} >
         <a href={href}>{text}</a>
     </button>
   )

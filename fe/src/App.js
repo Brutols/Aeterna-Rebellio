@@ -1,4 +1,4 @@
-import Button from "./components/buttons/Button";
+import Form from "./components/form/Form";
 import MainLayout from "./pages/MainLayout";
 
 
@@ -6,7 +6,8 @@ function App() {
   return (
     <>
       <MainLayout>
-        <Button text="FINAL FANTASY final fantasy" variant={"md"} />
+        
+        <Form />
       </MainLayout>
     </>
   );
